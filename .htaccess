@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule ^acceuil$ acceuil.php
+RewriteRule ^.{0}$ index.php
+RewriteRule ^comptes$ view/comptes/viewCompte.php
+RewriteRule ^comptesController$ controller/comptes/compteController.php
+RewriteRule ^usersController$ controller/users/userController.php
+RewriteRule ^usersModel$ model/users/userModel.php
